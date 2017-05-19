@@ -1,0 +1,53 @@
+/*--------------------------------------------
+|	Textos
+----------------------------------------------
+*/
+
+h1{	text-align:center; }
+
+a{
+	text-decoration: none;
+	color:black;
+}
+
+/*--------------------------------------------
+|	Contenedores
+----------------------------------------------
+*/
+
+div{
+	border:1px solid black;
+	border-radius:10px;
+	box-shadow: 10px 10px 5px #888888;
+	padding:18px;
+	margin:12px;
+}
+
+div.container{ background:#d9d9b3; }
+
+div.error{	background:#ff8484; }
+
+td.fav{
+	text-align: right;
+}
+
+/*--------------------------------------------
+|	Elementos
+----------------------------------------------
+*/
+button{
+	padding: 4px;
+	border-radius: 4px;
+	background: #e9e9e9;
+}
+
+button.fav{
+	text-align:center;
+	width:20px;
+	border-radius: 10px;
+	background: #ff8080;
+	color:black;
+	border: 0;
+	box-shadow: 3px 3px 5px #888888;
+}
+
